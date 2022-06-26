@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBERJU</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background-color: black;
+            margin: 0;
+        }
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 80px;
+        }
+        header h1 {
+            float: left;
+        }
+        .mainmenu li {
+            float: right;
+            display: inline-block;
+        }
+        a {
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .mainmenu a{
+            color: white;
+            margin-left: 50px;
+        }
+        .mainmenu a:hover {
+            
+        }
+        .maintext {
+            color: white;
+            width: 520px;
+            height: 100vh;
+            padding: 150px 80px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 80px;
+        }
+        footer {
+            box-sizing: border-box;
+        }
+        .footinner {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 50px 100px;
+        }
+        .footmenu >li {
+            display: inline-block;
+            float: right;
+        }
+        .footmenu >li >a{
+            margin-left: 50px;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .footinnerlogo {
+            float: left;
+            z-index: 10;
+        }
+        .footp {
+            position: absolute;
+            font-size: 12px;
+            color: white;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="video-wrap">
+                <video src="./video/보라은하.mp4" muted autoplay loop width="100%">
+                </video>
+            </div>    
+    <header>
+            <h1><a href="#"><img src="image/OBER.png" alt="" width="200px"></a></h1>
+            <nav class="mainmenu">
+                    <li><a href="회원가입.html" target="_blank">JOIN</a></li>
+                    <li><a href="COMPANY.html" target="_blank">COMPANY</a></li>
+                    <li><a href="#">SOLUTIONS</a></li>
+                    <li><a href="#">TECHNOLOGY</a></li>
+            </nav>
+    </header>
+
+
+            
+            <div class="maintext">
+                <h2>Be realized,<br>Right here.</h2>
+            </div>
+        </div>
+        
+    <footer>
+        <div class="footinner">
+        <div class="footinnerlogo">
+            <img src="image/OBER.png" alt="" width="100px">
+        </div>
+        <ul class="footmenu">
+            <li><a href="#"><strong>COMPANY</strong></a></li>
+            <li><a href="#"><strong>SOLUTIONS</strong></a></li>
+            <li><a href="#"><strong>TECHNOLOGY</strong></a></li>
+            <li><a href="#"><strong>ABOUT</strong></a></li>
+        </ul>
+
+        <div class="footp">
+            <p>전라북도 전주시 완산구 주영로 818, OBER빌딩 _ 대표이사 임지은 _ 사업자번호 000-00-00000 _ 대표번호 010-2939-1508</p>
+            <p>COPYRIGHT ⓒ 2023 BY OBERJU CO LTD. ALL RIGHT RESERVED </p>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
